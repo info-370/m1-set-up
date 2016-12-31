@@ -1,18 +1,18 @@
 # Module 1: Setting up your Machine
 
 ## Overview
-In this course, we'll be using a variety of different software programs to write, manage, and execute the code that we write. Unfortunately, one of the most frustrating and confusing barriers to start working with code is simply getting your machine properly set-up. This repository aims to provide sufficient information for setting up your machine, and troubleshooting the process. Do your best to follow instructions and search for help online, but don't waste too much time before contacting your TA. We'll also set aside time in the first lab session to help with machine set-up.
+In this course, we'll be using a variety of different software programs to write, manage, and execute the code that we write. Unfortunately, one of the most frustrating and confusing barriers to start working with code is simply getting your machine properly set-up, so set aside some time and dig in.
 
 Note, classroom machines for this course should have all appropriate software already installed and ready to use.
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
 **Contents**
 
 - [Resources](#resources)
 - [Summary](#summary)
-- [RStudio](#r-studio)
+- [RStudio](#rstudio)
+- [Anaconda (Python)](#anaconda-python)
 - [Git](#git)
 - [Command-line Tools (Windows)](#command-line-tools-windows)
   - [Git Bash](#git-bash)
@@ -27,17 +27,22 @@ Note, classroom machines for this course should have all appropriate software al
 
 ## Resources
 - [RStudio](https://www.rstudio.com/products/rstudio/download3/)
+- [Anaconda (Python)](https://www.continuum.io/downloads)
 - [SublimeText2](http://www.sublimetext.com/2)
 - [SublimeText3](http://www.sublimetext.com/3)
 - [Atom](https://atom.io/)
 - [Macdown](http://macdown.uranusjr.com/)
 - [Installing Bash on Windows](http://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/)
+- [Jupyter Notebooks](http://jupyter.org/)
 
 ## Summary
 In short, you'll need to install the following programs: see below for more information / options.
+
 - **RStudio**: An interface for writing and running R code, which is our primary language for the quarter ([link](https://www.rstudio.com/products/rstudio/download3/))
+- **Anaconda (Python)**: A _python distribution_ that also includes _notebook capabilities_ through Jupyter notebooks ([link](https://www.continuum.io/downloads))
 - **Git**: A set of command-line tools for tracking changes to a project. This is likely already installed on Macs. The Windows download will come with Git Bash, a simple interface for executing Git commands ([link](https://git-scm.com/downloads)).
 - **SublimeText**: A text-editor in which to write longer programming scripts ([link]((http://www.sublimetext.com/2))).
+
 
 The following sections have additional information about the purpose of each component, how to install it, and alternative configurations.
 
@@ -49,6 +54,11 @@ To download the RStudio program, select the installer for your operating system 
 ![r-studio installer screenshot](imgs/r-studio-install.png)
 
 Once the download completes, double-click on the `.exe` file to run the installer. Simply follow the steps of the installer, and you should be prepared to use RStudio. By downloading RStudio, you will also install the R programming language, if it is not already present in your operating system.
+
+## Anaconda (Python)
+Python is a very popular all-purpose programming language that is making a major impact in the data-science arena. While Python may already be installed on your machine, it is common to download a _Python Distribution_, which also downloads a variety of commonly used packages.
+
+The **Anaconda** distribution is popular because it also provides support for Jupyter notebooks (workbooks for documenting and sharing data science work). The internet is flooded with debates about _Python 2 v.s. Python 3_, but you should be able to complete work in both. Python 3 is "the future", but many libraries only provide Python 2 support. Download [here](https://www.continuum.io/downloads).
 
 ## Git
 Git is a version control system that provides a set of commands that allow you to manage changes to a project (much more on this in [module-3](https://github.com/info-201/m3-version-control)). For now, you'll need to [download](https://git-scm.com/downloads) and install the software. Note, if you are using a Windows machine, this will install a program called Git Bash, which provides a text-based interface for executing commands on your computer. For alternative/additional Windows command-line tools, see below.
