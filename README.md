@@ -41,7 +41,7 @@ In short, you'll need to install the following programs: see below for more info
 - **RStudio**: An interface for writing and running R code, which is our primary language for the quarter ([link](https://www.rstudio.com/products/rstudio/download3/))
 - **Anaconda (Python)**: A _python distribution_ that also includes _notebook capabilities_ through Jupyter notebooks ([link](https://www.continuum.io/downloads))
 - **Git**: A set of command-line tools for tracking changes to a project. This is likely already installed on Macs. The Windows download will come with Git Bash, a simple interface for executing Git commands ([link](https://git-scm.com/downloads)).
-- **SublimeText**: A text-editor in which to write longer programming scripts ([link]((http://www.sublimetext.com/2))).
+- **SublimeText**: A text-editor in which to write longer programming scripts ([link](http://www.sublimetext.com/2)).
 
 
 The following sections have additional information about the purpose of each component, how to install it, and alternative configurations.
