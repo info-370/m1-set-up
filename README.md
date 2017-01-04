@@ -1,4 +1,4 @@
-# Module 1: Setting up your Machine
+# Software Installation
 
 ## Overview
 In this course, we'll be using a variety of different software programs to write, manage, and execute the code that we write. Unfortunately, one of the most frustrating and confusing barriers to start working with code is simply getting your machine properly set-up, so set aside some time and dig in.
