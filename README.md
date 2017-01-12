@@ -11,6 +11,7 @@ Note, classroom machines for this course should have all appropriate software al
 
 - [Resources](#resources)
 - [Summary](#summary)
+- [R](#r)
 - [RStudio](#rstudio)
 - [Anaconda (Python)](#anaconda-python)
 - [Git](#git)
@@ -27,6 +28,7 @@ Note, classroom machines for this course should have all appropriate software al
 
 ## Resources
 - [RStudio](https://www.rstudio.com/products/rstudio/download3/)
+- R [mac](https://cran.r-project.org/bin/macosx/), [windows](https://cran.r-project.org/bin/windows/base/)
 - [Anaconda (Python)](https://www.continuum.io/downloads)
 - [SublimeText2](http://www.sublimetext.com/2)
 - [SublimeText3](http://www.sublimetext.com/3)
@@ -38,7 +40,8 @@ Note, classroom machines for this course should have all appropriate software al
 ## Summary
 In short, you'll need to install the following programs: see below for more information / options.
 
-- **RStudio**: An interface for writing and running R code, which is our primary language for the quarter ([link](https://www.rstudio.com/products/rstudio/download3/))
+- **R**: A statistical programming language used to wrangle, analyze, and visualize data ([mac](https://cran.r-project.org/bin/macosx/), [windows](https://cran.r-project.org/bin/windows/base/))
+- **RStudio**: An interface for writing and running R code, which is a primary language for the quarter ([link](https://www.rstudio.com/products/rstudio/download3/))
 - **Anaconda (Python)**: A _python distribution_ that also includes _notebook capabilities_ through Jupyter notebooks ([link](https://www.continuum.io/downloads))
 - **Git**: A set of command-line tools for tracking changes to a project. This is likely already installed on Macs. The Windows download will come with Git Bash, a simple interface for executing Git commands ([link](https://git-scm.com/downloads)).
 - **SublimeText**: A text-editor in which to write longer programming scripts ([link](http://www.sublimetext.com/2)).
@@ -46,8 +49,13 @@ In short, you'll need to install the following programs: see below for more info
 
 The following sections have additional information about the purpose of each component, how to install it, and alternative configurations.
 
+## R
+R is a popular data science language used to download, analyze, and visualize data. You can download it at the appropriate link for your operating system ([mac](https://cran.r-project.org/bin/macosx/), [windows](https://cran.r-project.org/bin/windows/base/)). At the link, click the appropriate download link and follow instructions:
+
+![r download link](imgs/download_r.png)
+
 ## RStudio
-The primary programming language we will use throughout the course is R. It's a very powerful statistical programming language that is built to work well with large and diverse datasets. While you are able to execute R scripts without an interface, the RStudio interface provides a wonderful way to engage with the R language.
+The primary programming language we will use throughout the course is R. It's a very powerful statistical programming language that is built to work well with large and diverse datasets. While you are able to execute R scripts without an interface, the RStudio interface provides a wonderful way to engage with the R language. Importantly, you **cannot use the RStudio interface until you have installed R.**
 
 To download the RStudio program, select the installer for your operating system at this [link](https://www.rstudio.com/products/rstudio/download3/). Make sure to scroll down to download a **free** version of RStudio:
 
